@@ -1,7 +1,7 @@
-import './bootstrap';
+import "../css/app.css";
+import "../css/theme.css";
+import "../css/animation.css";
 
-import Alpine from 'alpinejs';
-
-window.Alpine = Alpine;
-
-Alpine.start();
+import "./bootstrap";
+import "./animation";
+import "./particles";
