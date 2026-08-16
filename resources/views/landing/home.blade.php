@@ -319,5 +319,6 @@
     </div>
 
 </section>
+@include('components.about')
 
 @endsection
