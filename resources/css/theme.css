@@ -97,3 +97,29 @@ section {
 .skill-card:hover::after {
     transform: scale(2);
 }
+.portfolio-card {
+    position: relative;
+    isolation: isolate;
+}
+
+.portfolio-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+
+    background: linear-gradient(
+        135deg,
+        rgba(34, 211, 238, 0.12),
+        transparent 35%,
+        rgba(74, 222, 128, 0.08)
+    );
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-card:hover::before {
+    opacity: 1;
+}
