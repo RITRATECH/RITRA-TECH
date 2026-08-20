@@ -29,7 +29,13 @@
                    class="text-white hover:text-cyan-400 transition">
                     Services
                 </a>
+                <a
+                    href="#skills"
+                    class="text-white hover:text-cyan-400 transition">
 
+                    Skills
+
+                </a>
                 <a href="#portfolio"
                    class="text-white hover:text-cyan-400 transition">
                     Portfolio

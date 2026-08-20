@@ -76,3 +76,24 @@ section {
 
     pointer-events: none;
 }
+.skill-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-card::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    right: -50px;
+    border-radius: 9999px;
+    background: rgba(34, 211, 238, 0.08);
+    filter: blur(35px);
+    transition: transform 0.5s ease;
+}
+
+.skill-card:hover::after {
+    transform: scale(2);
+}

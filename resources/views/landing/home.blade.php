@@ -321,4 +321,5 @@
 </section>
 @include('components.about')
 @include('components.services')
+@include('components.skills')
 @endsection
