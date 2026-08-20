@@ -320,5 +320,5 @@
 
 </section>
 @include('components.about')
-
+@include('components.services')
 @endsection
