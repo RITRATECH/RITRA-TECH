@@ -26,3 +26,10 @@ import "./gsap";
 import "./pages/landing";
 import "./pages/dashboard";
 import "./pages/portfolio";
+import "./bootstrap";
+
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.start();

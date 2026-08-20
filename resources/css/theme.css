@@ -123,3 +123,30 @@ section {
 .portfolio-card:hover::before {
     opacity: 1;
 }
+.mobile-nav-link {
+    position: relative;
+
+    display: block;
+    width: 100%;
+
+    padding: 0.85rem 1rem;
+
+    border-radius: 0.75rem;
+
+    color: rgb(209 213 219);
+
+    font-size: 0.95rem;
+
+    transition:
+        color 0.3s ease,
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+    color: rgb(34 211 238);
+
+    background-color: rgba(34, 211, 238, 0.08);
+
+    transform: translateX(4px);
+}
