@@ -323,4 +323,5 @@
 @include('components.services')
 @include('components.skills')
 @include('components.portfolio-preview')
+@include('components.blog-preview')
 @endsection
