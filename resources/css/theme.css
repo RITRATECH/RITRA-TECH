@@ -292,3 +292,229 @@ section {
 .testimonial-card:hover::before {
     opacity: 1;
 }
+/* =========================================
+   CONTACT SECTION
+   ========================================= */
+
+.contact-glass {
+    position: relative;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(34, 211, 238, 0.12);
+
+    background: linear-gradient(
+        145deg,
+        rgba(34, 211, 238, 0.055),
+        rgba(255, 255, 255, 0.02) 45%,
+        rgba(74, 222, 128, 0.04)
+    );
+
+    backdrop-filter: blur(20px);
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.contact-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    padding: 1rem;
+
+    border: 1px solid rgba(255, 255, 255, 0.06);
+
+    border-radius: 0.875rem;
+
+    background: rgba(255, 255, 255, 0.02);
+
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.contact-item + .contact-item {
+    margin-top: 0.75rem;
+}
+
+.contact-item:hover {
+    transform: translateX(4px);
+
+    border-color: rgba(34, 211, 238, 0.22);
+
+    background: rgba(34, 211, 238, 0.04);
+}
+
+.contact-icon {
+    display: flex;
+
+    height: 2.75rem;
+    width: 2.75rem;
+
+    flex-shrink: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 0.75rem;
+
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* =========================================
+   MINIMAL CONTACT FORM
+   ========================================= */
+
+.contact-form-card {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    background: rgba(255, 255, 255, 0.025);
+
+    backdrop-filter: blur(14px);
+}
+
+.contact-input {
+    width: 100%;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    border-radius: 0.75rem;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    padding: 0.85rem 1rem;
+
+    color: white;
+
+    outline: none;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+.contact-input::placeholder {
+    color: rgb(107 114 128);
+}
+
+.contact-input:hover {
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.contact-input:focus {
+    border-color: rgba(34, 211, 238, 0.55);
+
+    background: rgba(34, 211, 238, 0.025);
+
+    box-shadow:
+        0 0 0 3px rgba(34, 211, 238, 0.08),
+        0 0 25px rgba(34, 211, 238, 0.06);
+}
+
+.contact-submit {
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.75rem;
+
+    border: 1px solid rgba(34, 211, 238, 0.3);
+
+    border-radius: 0.75rem;
+
+    background: rgba(34, 211, 238, 0.1);
+
+    padding: 0.9rem 1.25rem;
+
+    color: rgb(34 211 238);
+
+    font-size: 0.875rem;
+
+    font-weight: 600;
+
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.contact-submit:hover {
+    transform: translateY(-2px);
+
+    border-color: rgba(34, 211, 238, 0.6);
+
+    background: rgba(34, 211, 238, 0.16);
+
+    box-shadow: 0 0 30px rgba(34, 211, 238, 0.1);
+}
+
+.contact-submit:active {
+    transform: translateY(0);
+}
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer-link {
+    color: rgb(107 114 128);
+
+    font-size: 0.875rem;
+
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.footer-link:hover {
+    color: rgb(34 211 238);
+
+    transform: translateX(2px);
+}
+
+.footer-social {
+    display: flex;
+
+    height: 2.5rem;
+    width: 2.5rem;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 0.65rem;
+
+    background: rgba(255, 255, 255, 0.025);
+
+    color: rgb(156 163 175);
+
+    font-family: monospace;
+
+    font-size: 0.75rem;
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.footer-social:hover {
+    border-color: rgba(34, 211, 238, 0.35);
+
+    background: rgba(34, 211, 238, 0.06);
+
+    color: rgb(34 211 238);
+
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.08);
+}

@@ -327,4 +327,5 @@
 @include('components.marketplace-preview')
 @include('components.trust-stats')
 @include('components.testimonials')
+@include('components.contact')
 @endsection
