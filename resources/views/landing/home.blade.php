@@ -324,4 +324,5 @@
 @include('components.skills')
 @include('components.portfolio-preview')
 @include('components.blog-preview')
+@include('components.marketplace-preview')
 @endsection
