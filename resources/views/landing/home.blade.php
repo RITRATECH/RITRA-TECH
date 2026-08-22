@@ -325,4 +325,6 @@
 @include('components.portfolio-preview')
 @include('components.blog-preview')
 @include('components.marketplace-preview')
+@include('components.trust-stats')
+@include('components.testimonials')
 @endsection

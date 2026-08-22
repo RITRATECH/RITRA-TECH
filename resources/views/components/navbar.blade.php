@@ -71,6 +71,14 @@
                 </a>
 
                 <a
+                    href="#testimonials"
+                    class="text-white hover:text-cyan-400 transition">
+
+                    Testimonials
+
+                </a>
+                
+                <a
                     href="#contact"
                     class="text-white hover:text-cyan-400 transition">
 
@@ -350,6 +358,15 @@
                 class="mobile-nav-link">
 
                 Marketplace
+
+            </a>
+
+            <a
+                href="#testimonials"
+                @click="mobileMenuOpen = false"
+                class="mobile-nav-link">
+
+                Testimonials
 
             </a>
 
