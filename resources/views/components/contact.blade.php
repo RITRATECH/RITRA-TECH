@@ -124,7 +124,7 @@
                             <div
                                 class="mt-1 text-sm font-medium text-white">
 
-                                hello@ritra-tech.com
+                                ritra106@gmail.com
 
                             </div>
 
@@ -202,7 +202,7 @@
                             <div
                                 class="mt-1 text-sm font-medium text-white">
 
-                                RITRA TECH
+                                RICO SAPUTRA
 
                             </div>
 
